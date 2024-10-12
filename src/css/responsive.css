@@ -1,0 +1,59 @@
+@media (max-width: 480px) {
+
+    body {
+        padding: 0;
+        border-radius: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    img {
+        padding: 0;
+        border-radius: 1px;
+    }
+
+    .cabecalho {
+        margin: 0 25px;
+    }
+
+    .container .titulo,
+    .preparo .titulo-preparo,
+    .ingredientes .titulo-ingredientes,
+    .instrucoes .titulo-instrucoes,
+    .nutricao .titulo-nutricao {
+        font-size: 2.3rem;
+    }
+
+    .sobre-o-prato,
+    .preparo .etapas-de-preparo,
+    .ingredientes .ingredientes-qtd,
+    .instrucoes .modo-de-preparo,
+    .nutricao .tabela-nutricional,
+    .nutricao .valores-nutricionais-esq,
+    .nutricao .valores-nutricionais-dir {
+        font-size: 1.5rem;
+    }
+
+    .preparo {
+        margin: 0 25px;
+        padding-left: 20px;
+    }
+
+    .ingredientes {
+        margin: 0 25px;
+    }
+
+    .instrucoes {
+        margin: 0 25px;
+    }
+
+    .nutricao {
+        margin: 0 25px;
+    }
+
+}

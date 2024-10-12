@@ -1,0 +1,175 @@
+html {
+    font-size: 62.5%;
+    /* font-family: 'Young Serif', 'Outfit', sans-serif; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 25px;
+    width: 800px;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.container .cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+.container .titulo {
+    line-height: 75px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Young Serif', sans-serif;
+}
+
+.sobre-o-prato {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.preparo {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.preparo .titulo-preparo {
+    font-size: 3rem;
+    line-height: 75px;
+    padding-left: 2rem;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-family: 'Young Serif', sans-serif;
+}
+
+.etapas-de-preparo li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparo .etapas-de-preparo {
+    padding-left: 4rem;
+    font-size: 1.9rem;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+    line-height: 4rem;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.ingredientes .titulo-ingredientes {
+    font-size: 3rem;
+    line-height: 75px;
+    padding-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-family: 'Young Serif', sans-serif;
+}
+
+.ingredientes-qtd li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientes .ingredientes-qtd {
+    padding-left: 4rem;
+    font-size: 1.9rem;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+    line-height: 4rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.instrucoes .titulo-instrucoes {
+    font-size: 3rem;
+    line-height: 75px;
+    padding-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 700;
+}
+
+.instrucoes .modo-de-preparo {
+    padding-left: 4rem;
+    font-size: 1.9rem;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+    line-height: 4rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.modo-de-preparo li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutricao .titulo-nutricao {
+    font-size: 3rem;
+    line-height: 75px;
+    padding-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 700;
+}
+
+.nutricao .tabela-nutricional {
+    padding-left: 2.6rem;
+    font-size: 1.9rem;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+    line-height: 3rem;
+    padding-bottom: 15px;
+}
+
+.nutricao .valores-nutricionais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Outfit', sans-serif;
+}
+
+.nutricao .valores-nutricionais p {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.valores-nutricionais .valores-nutricionais-esq {
+    font-size: 1.9rem;
+    color: hsl(30, 10%, 34%);
+    padding-left: 2rem;
+    line-height: 4rem;
+}
+
+.valores-nutricionais .valores-nutricionais-dir {
+    font-size: 1.9rem;
+    color: hsl(14, 45%, 36%);
+    line-height: 4rem;
+    font-weight: 700;
+}
